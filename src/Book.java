@@ -2,7 +2,13 @@ public class Book {
     // ===== Part A - Lesson 1 (Task 2) =====
     // Do NOT write a constructor in Part A.
     // TODO 1: fields - String isbn, title, author; int year; boolean available = true
+    String isbn;
+    String title;
+    String author;
     // TODO 2: void printInfo()      prints exactly: Java Basics by Suda (2024)
+    void printInfo(){
+        System.out.println(title + " by "+author+" ("+year+")");
+    }
     // TODO 3: boolean isAvailable() returns available
     // TODO 4: void borrow()         sets available to false
     // TODO 5: void returnBook()     sets available to true
