@@ -5,6 +5,7 @@ public class Book {
     String isbn;
     String title;
     String author;
+    int year;
     // TODO 2: void printInfo()      prints exactly: Java Basics by Suda (2024)
     void printInfo(){
         System.out.println(title + " by "+author+" ("+year+")");

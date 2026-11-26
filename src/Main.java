@@ -1,6 +1,13 @@
 // Task 6 (Part B - Lesson 2)
 public class Main {
     // TODO: write the main method.
+    public static void main(String[] args){
+        Book b = new Book();
+        b.title= "Java Basics";
+        b.author = "Suda";
+        b.year = 2024;
+        b.printInfo();
+    }
     //  1. Create the book with a constructor: Java Basics by Suda, 2024, isbn 978-0001
     //  2. Create shop "Campus Store" and add 3 products (use constructors, no dot assignment):
     //       P001 Notebook 59.5, stock 20
